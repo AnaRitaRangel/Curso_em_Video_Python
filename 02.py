@@ -25,8 +25,7 @@ elif value.istitle(): # Only first letter capital
 
 
 # Teacher's solution:
-print("")
-print("")
+print("=" * 40)
 print("")
 print("## THIS IS THE TEACHER'S SOLUTION ##")
 print("The input is blank: ", value.isspace())

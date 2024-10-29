@@ -1,3 +1,5 @@
+## Class #04
+
 ## Develop a program that asks for the user name, age and weight and prints all this information
 name = input("Type your name: ")
 age = input("Type your age: ")
