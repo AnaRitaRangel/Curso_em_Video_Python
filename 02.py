@@ -1,6 +1,30 @@
 ## Class # 06
 
 #4. Develop a program that reads an input and shows which type it is and all the possible information about it
+
+#Gostei dessa resolução
+algo = input('Digite qualquer coisa: ')
+print(type(algo))
+
+if algo.isdigit():
+    print('Você digitou um número')
+
+elif algo.isspace():
+    print('Só há espaços')
+
+elif algo.isalnum():
+    print('Existem letras e números na sua digitação')
+
+elif algo.isalpha():
+    print('Você digitou apenas letras')
+
+else:
+    print('Você digitou algo diferente de letras e números')
+
+________________________________________________________________
+
+# Minha resolução anterior
+
 print('What can be told about the input')
 value = input("Type something: ")
 
